@@ -1,0 +1,21 @@
+[
+    {
+        "id": 0,
+        "name": "Imran Syahir",
+        "profession": "General Doctor",
+        "openAt": "10.00",
+        "imageName": "imran_syahir",
+        "distanceKm": "1.2 KM",
+        "rating": "4.9 (154 Reviews)"
+    },
+    {
+        "id": 1,
+        "name": "Joseph Brostito",
+        "profession": "Dental Specialist",
+        "openAt": "17.00",
+        "imageName": "joseph_brostito",
+        "distanceKm": "1.2 KM",
+        "rating": "4.8 (140 Reviews)"
+    }
+]
+                

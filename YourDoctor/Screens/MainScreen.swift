@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct MainScreen: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         VStack {
-            Text("Hello,")
-            Text("Hi James")
+            GreetingHeader()
+                .padding(.horizontal, 24)
+//            NearestMeeting()
+            Spacer()
         }
-        
+        .padding(.top, 24)
     }
 }
 
 struct MainScreen_Previews: PreviewProvider {
     static var previews: some View {
         MainScreen()
+            .environmentObject(ModelData())
     }
 }
