@@ -21,6 +21,7 @@
 		CE5DAFEF2B013C0800C65BB3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */; };
 		CE5DAFF52B013D9200C65BB3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */; };
 		CE5DAFF72B013E4900C65BB3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFF62B013E4900C65BB3 /* Fonts.swift */; };
+		CE5DAFF92B014B7800C65BB3 /* NearestMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFF82B014B7800C65BB3 /* NearestMeeting.swift */; };
 		CE7C44BE2B009B3100D7C5B8 /* YourDoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C44BD2B009B3100D7C5B8 /* YourDoctorApp.swift */; };
 		CE7C44C02B009B3100D7C5B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C44BF2B009B3100D7C5B8 /* ContentView.swift */; };
 		CE7C44C22B009B3400D7C5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C44C12B009B3400D7C5B8 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		CE5DAFF12B013CB800C65BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		CE5DAFF62B013E4900C65BB3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CE5DAFF82B014B7800C65BB3 /* NearestMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestMeeting.swift; sourceTree = "<group>"; };
 		CE7C44BA2B009B3100D7C5B8 /* YourDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7C44BD2B009B3100D7C5B8 /* YourDoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDoctorApp.swift; sourceTree = "<group>"; };
 		CE7C44BF2B009B3100D7C5B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				CE5988812B010E9D00337290 /* GreetingHeader.swift */,
+				CE5DAFF82B014B7800C65BB3 /* NearestMeeting.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			files = (
 				CE7C44CC2B009BA800D7C5B8 /* MainScreen.swift in Sources */,
 				CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */,
+				CE5DAFF92B014B7800C65BB3 /* NearestMeeting.swift in Sources */,
 				CE59887F2B010D9D00337290 /* Meeting.swift in Sources */,
 				CE7C44C02B009B3100D7C5B8 /* ContentView.swift in Sources */,
 				CE5988822B010E9D00337290 /* GreetingHeader.swift in Sources */,

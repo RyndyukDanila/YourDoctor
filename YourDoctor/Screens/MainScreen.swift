@@ -1,10 +1,3 @@
-//
-//  MainScreen.swift
-//  YourDoctor
-//
-//  Created by  User on 12.11.2023.
-//
-
 import SwiftUI
 
 struct MainScreen: View {
@@ -13,11 +6,12 @@ struct MainScreen: View {
     var body: some View {
         VStack {
             GreetingHeader()
-                .padding(.horizontal, 24)
-//            NearestMeeting()
+                .padding(.bottom, 32)
+            NearestMeeting()
             Spacer()
         }
         .padding(.top, 24)
+        .padding(.horizontal, 24)
     }
 }
 
