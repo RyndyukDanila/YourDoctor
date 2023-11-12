@@ -14,14 +14,11 @@ struct GreetingHeader: View {
         HStack {
             VStack (alignment: .leading) {
                 Text(UIText.greeting)
-                    .font(Font.custom("Poppins", size: 16))
-                    .foregroundColor(Color(red: 0.53, green: 0.59, blue: 0.73))
+                    .font(Font.custom(Fonts.poppinsRegular, size: 16))
+                    .foregroundColor(ColorTheme.Text.greeting)
                 Text(modelData.user.name)
-                    .font(
-                        Font.custom("Poppins", size: 20)
-                            .weight(.bold)
-                    )
-                    .foregroundColor(Color(red: 0.05, green: 0.11, blue: 0.2))
+                    .font(Font.custom(Fonts.poppinsBold, size: 20))
+                    .foregroundColor(ColorTheme.Text.primary)
             }
             Spacer()
             modelData.user.image

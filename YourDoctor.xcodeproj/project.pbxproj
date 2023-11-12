@@ -16,6 +16,11 @@
 		CE5988842B010F3B00337290 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = CE5988832B010F3B00337290 /* User.json */; };
 		CE5988862B010FAE00337290 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988852B010FAE00337290 /* User.swift */; };
 		CE5988892B01104600337290 /* UIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988882B01104600337290 /* UIText.swift */; };
+		CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */; };
+		CE5DAFEE2B013C0800C65BB3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFEB2B013C0800C65BB3 /* Poppins-Bold.ttf */; };
+		CE5DAFEF2B013C0800C65BB3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */; };
+		CE5DAFF52B013D9200C65BB3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */; };
+		CE5DAFF72B013E4900C65BB3 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFF62B013E4900C65BB3 /* Fonts.swift */; };
 		CE7C44BE2B009B3100D7C5B8 /* YourDoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C44BD2B009B3100D7C5B8 /* YourDoctorApp.swift */; };
 		CE7C44C02B009B3100D7C5B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C44BF2B009B3100D7C5B8 /* ContentView.swift */; };
 		CE7C44C22B009B3400D7C5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C44C12B009B3400D7C5B8 /* Assets.xcassets */; };
@@ -33,6 +38,12 @@
 		CE5988832B010F3B00337290 /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
 		CE5988852B010FAE00337290 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CE5988882B01104600337290 /* UIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIText.swift; sourceTree = "<group>"; };
+		CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		CE5DAFEB2B013C0800C65BB3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE5DAFF12B013CB800C65BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		CE5DAFF62B013E4900C65BB3 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		CE7C44BA2B009B3100D7C5B8 /* YourDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7C44BD2B009B3100D7C5B8 /* YourDoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourDoctorApp.swift; sourceTree = "<group>"; };
 		CE7C44BF2B009B3100D7C5B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,9 +77,8 @@
 		CE59887A2B01066B00337290 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE5988782B01065D00337290 /* Doctors.json */,
-				CE59887C2B010C0600337290 /* Meetings.json */,
-				CE5988832B010F3B00337290 /* User.json */,
+				CE5DAFF32B013D6200C65BB3 /* Fonts */,
+				CE5DAFF22B013D5300C65BB3 /* Data */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -93,8 +103,31 @@
 			isa = PBXGroup;
 			children = (
 				CE5988882B01104600337290 /* UIText.swift */,
+				CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */,
+				CE5DAFF62B013E4900C65BB3 /* Fonts.swift */,
 			);
 			path = Theme;
+			sourceTree = "<group>";
+		};
+		CE5DAFF22B013D5300C65BB3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CE5988782B01065D00337290 /* Doctors.json */,
+				CE59887C2B010C0600337290 /* Meetings.json */,
+				CE5988832B010F3B00337290 /* User.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CE5DAFF32B013D6200C65BB3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE5DAFF12B013CB800C65BB3 /* Info.plist */,
+				CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */,
+				CE5DAFEB2B013C0800C65BB3 /* Poppins-Bold.ttf */,
+				CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		CE7C44B12B009B3100D7C5B8 = {
@@ -196,6 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5988792B01065D00337290 /* Doctors.json in Resources */,
+				CE5DAFEF2B013C0800C65BB3 /* Poppins-SemiBold.ttf in Resources */,
+				CE5DAFF52B013D9200C65BB3 /* Poppins-Regular.ttf in Resources */,
+				CE5DAFEE2B013C0800C65BB3 /* Poppins-Bold.ttf in Resources */,
 				CE5988842B010F3B00337290 /* User.json in Resources */,
 				CE59887D2B010C0600337290 /* Meetings.json in Resources */,
 				CE7C44C52B009B3400D7C5B8 /* Preview Assets.xcassets in Resources */,
@@ -211,12 +247,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7C44CC2B009BA800D7C5B8 /* MainScreen.swift in Sources */,
+				CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */,
 				CE59887F2B010D9D00337290 /* Meeting.swift in Sources */,
 				CE7C44C02B009B3100D7C5B8 /* ContentView.swift in Sources */,
 				CE5988822B010E9D00337290 /* GreetingHeader.swift in Sources */,
 				CE5988892B01104600337290 /* UIText.swift in Sources */,
 				CE5988862B010FAE00337290 /* User.swift in Sources */,
 				CE5988752B00FC4300337290 /* ModelData.swift in Sources */,
+				CE5DAFF72B013E4900C65BB3 /* Fonts.swift in Sources */,
 				CE5988732B00FBA200337290 /* Doctor.swift in Sources */,
 				CE7C44BE2B009B3100D7C5B8 /* YourDoctorApp.swift in Sources */,
 			);
@@ -349,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YourDoctor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YourDoctor/Resources/Fonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,6 +416,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"YourDoctor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YourDoctor/Resources/Fonts/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
