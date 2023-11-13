@@ -15,6 +15,7 @@ struct MainScreen: View {
                 TopicRow()
                     .padding(.bottom, 32)
                 NearDoctors()
+                    .padding(.bottom, 96)
             }
         }
         .padding(.horizontal, 24)

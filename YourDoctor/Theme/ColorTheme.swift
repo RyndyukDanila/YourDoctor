@@ -14,6 +14,7 @@ struct ColorTheme {
     struct Buttons {
         static let primary = Color(red: 0.28, green: 0.58, blue: 1)
         static let secondary = Color(red: 0.98, green: 0.98, blue: 0.98)
+        static let tabIcon = Color(red: 0.39, green: 0.71, blue: 1)
         static let tab = Color(red: 0.39, green: 0.71, blue: 1).opacity(0.1)
         static let background = Color(.white)
         static let divider = Color(red: 0.96, green: 0.96, blue: 0.96)
