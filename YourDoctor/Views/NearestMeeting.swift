@@ -36,15 +36,13 @@ struct NearestMeeting: View {
                 .frame(maxWidth: .infinity, minHeight: 0, maxHeight: 0.5)
             HStack {
                 HStack {
-                    Image("calendar")
-                    Text(modelData.meetings.first!.date)
+                    Label(modelData.meetings.first!.date, systemImage: "calendar")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(ColorTheme.Text.meetingPrimary)
                 }
                 Spacer()
                 HStack {
-                    Image("clock")
-                    Text(modelData.meetings.first!.time)
+                    Label(modelData.meetings.first!.time, systemImage: "clock")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(ColorTheme.Text.meetingPrimary)
                 }
