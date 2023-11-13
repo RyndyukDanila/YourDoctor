@@ -12,6 +12,10 @@ struct MainScreen: View {
                     .padding(.bottom, 20)
                 SearchBar()
                     .padding(.bottom, 24)
+                TopicRow()
+                    .padding(.bottom, 32)
+//                NearDoctors()
+//                    .padding(.bottom, 0)
                 Spacer()
             }
         }
