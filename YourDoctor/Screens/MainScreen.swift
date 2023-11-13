@@ -4,11 +4,16 @@ struct MainScreen: View {
     @EnvironmentObject var modelData: ModelData
     
     var body: some View {
-        VStack {
-            GreetingHeader()
-                .padding(.bottom, 32)
-            NearestMeeting()
-            Spacer()
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack(spacing: 0) {
+                GreetingHeader()
+                    .padding(.bottom, 32)
+                NearestMeeting()
+                    .padding(.bottom, 20)
+                SearchBar()
+                    .padding(.bottom, 24)
+                Spacer()
+            }
         }
         .padding(.top, 24)
         .padding(.horizontal, 24)

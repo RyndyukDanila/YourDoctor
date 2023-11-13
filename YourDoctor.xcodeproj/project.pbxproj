@@ -27,6 +27,7 @@
 		CE7C44C22B009B3400D7C5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C44C12B009B3400D7C5B8 /* Assets.xcassets */; };
 		CE7C44C52B009B3400D7C5B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C44C42B009B3400D7C5B8 /* Preview Assets.xcassets */; };
 		CE7C44CC2B009BA800D7C5B8 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C44CB2B009BA800D7C5B8 /* MainScreen.swift */; };
+		CED27CB82B01E6BD003B1AA5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED27CB72B01E6BD003B1AA5 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		CE7C44C12B009B3400D7C5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7C44C42B009B3400D7C5B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE7C44CB2B009BA800D7C5B8 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		CED27CB72B01E6BD003B1AA5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				CE5988812B010E9D00337290 /* GreetingHeader.swift */,
 				CE5DAFF82B014B7800C65BB3 /* NearestMeeting.swift */,
+				CED27CB72B01E6BD003B1AA5 /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED27CB82B01E6BD003B1AA5 /* SearchBar.swift in Sources */,
 				CE7C44CC2B009BA800D7C5B8 /* MainScreen.swift in Sources */,
 				CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */,
 				CE5DAFF92B014B7800C65BB3 /* NearestMeeting.swift in Sources */,

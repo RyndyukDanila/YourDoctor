@@ -1,10 +1,3 @@
-//
-//  NearestMeeting.swift
-//  YourDoctor
-//
-//  Created by  User on 12.11.2023.
-//
-
 import SwiftUI
 
 struct NearestMeeting: View {
@@ -29,7 +22,9 @@ struct NearestMeeting: View {
                         .foregroundColor(ColorTheme.Text.meetingSecondary)
                 }
                 Spacer()
-                Image("arrow-right")
+                Button(action: {}) {
+                    Image("arrow-right")
+                }
             }
             Rectangle()
                 .stroke(.white.opacity(0.15), lineWidth: 1)

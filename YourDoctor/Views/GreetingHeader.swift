@@ -21,7 +21,9 @@ struct GreetingHeader: View {
                     .foregroundColor(ColorTheme.Text.primary)
             }
             Spacer()
-            modelData.user.image
+            Button(action: {}) {
+                modelData.user.image
+            }
         }
     }
 }
