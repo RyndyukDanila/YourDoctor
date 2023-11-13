@@ -1,10 +1,3 @@
-//
-//  HeaderGreeting.swift
-//  YourDoctor
-//
-//  Created by  User on 12.11.2023.
-//
-
 import SwiftUI
 
 struct GreetingHeader: View {

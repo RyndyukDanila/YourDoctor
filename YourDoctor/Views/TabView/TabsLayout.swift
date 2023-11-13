@@ -1,10 +1,3 @@
-//
-//  TabsLayout.swift
-//  YourDoctor
-//
-//  Created by  User on 13.11.2023.
-//
-
 import SwiftUI
 
 struct TabsLayout: View {
@@ -21,6 +14,7 @@ struct TabsLayout: View {
                     TabButton(tab: tab, selectedTab: $selectedTab)
                 }
             }
+            .padding(.bottom, 16)
         }
     }
 }

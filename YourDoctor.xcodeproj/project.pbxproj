@@ -120,13 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				CED5DE132B02405D006AF024 /* TabView */,
-				CEF5CBF62B020A5700FC488C /* TopicRow.swift */,
+				CED5DE142B02438B006AF024 /* TopicView */,
 				CE5988812B010E9D00337290 /* GreetingHeader.swift */,
 				CE5DAFF82B014B7800C65BB3 /* NearestMeeting.swift */,
 				CED27CB72B01E6BD003B1AA5 /* SearchBar.swift */,
-				CEF5CBF82B020C4400FC488C /* TopicItem.swift */,
-				CED69F312B02185E003E0FF2 /* NearDoctors.swift */,
-				CED69F332B0219F5003E0FF2 /* DoctorCard.swift */,
+				CED5DE152B0243B0006AF024 /* NearDoctorsView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +207,24 @@
 				CED5DE0D2B0234FE006AF024 /* TabButton.swift */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		CED5DE142B02438B006AF024 /* TopicView */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5CBF82B020C4400FC488C /* TopicItem.swift */,
+				CEF5CBF62B020A5700FC488C /* TopicRow.swift */,
+			);
+			path = TopicView;
+			sourceTree = "<group>";
+		};
+		CED5DE152B0243B0006AF024 /* NearDoctorsView */ = {
+			isa = PBXGroup;
+			children = (
+				CED69F312B02185E003E0FF2 /* NearDoctors.swift */,
+				CED69F332B0219F5003E0FF2 /* DoctorCard.swift */,
+			);
+			path = NearDoctorsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

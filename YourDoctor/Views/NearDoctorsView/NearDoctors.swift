@@ -1,10 +1,3 @@
-//
-//  NearDoctors.swift
-//  YourDoctor
-//
-//  Created by  User on 13.11.2023.
-//
-
 import SwiftUI
 
 struct NearDoctors: View {
