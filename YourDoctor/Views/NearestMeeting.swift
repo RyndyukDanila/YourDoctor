@@ -9,7 +9,7 @@ struct NearestMeeting: View {
                 modelData.doctors[modelData.meetings.first!.doctorId].image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 58, height: 58)
+                    .frame(width: 58, height: 73)
                     .offset(x: -2, y: 10)
                     .background(.white)
                     .clipShape(Circle())
@@ -34,12 +34,13 @@ struct NearestMeeting: View {
                     Label(modelData.meetings.first!.date, systemImage: "calendar")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(ColorTheme.Text.meetingPrimary)
+                    Spacer()
                 }
-                Spacer()
                 HStack {
                     Label(modelData.meetings.first!.time, systemImage: "clock")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(ColorTheme.Text.meetingPrimary)
+                    Spacer()
                 }
             }
             

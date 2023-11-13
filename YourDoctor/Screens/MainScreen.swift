@@ -14,12 +14,9 @@ struct MainScreen: View {
                     .padding(.bottom, 24)
                 TopicRow()
                     .padding(.bottom, 32)
-//                NearDoctors()
-//                    .padding(.bottom, 0)
-                Spacer()
+                NearDoctors()
             }
         }
-        .padding(.top, 24)
         .padding(.horizontal, 24)
     }
 }

@@ -5,4 +5,5 @@ struct UIText {
     static var doctor: String = "Doctor"
     static var medicine: String = "Medicine"
     static var hospital: String = "Hospital"
+    static var nearDoctor: String = "Near Doctor"
 }
