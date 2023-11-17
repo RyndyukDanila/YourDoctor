@@ -23,7 +23,7 @@ struct NearestMeeting: View {
                 }
                 Spacer()
                 Button(action: {}) {
-                    Image("arrow-right")
+                    Image(Images.Icons.arrowRight)
                 }
             }
             Rectangle()
@@ -31,13 +31,13 @@ struct NearestMeeting: View {
                 .frame(maxWidth: .infinity, minHeight: 0, maxHeight: 0.5)
             HStack {
                 HStack {
-                    Label(modelData.meetings.first!.date, systemImage: "calendar")
+                    Label(modelData.meetings.first!.date, systemImage: Images.Icons.calendar)
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(Colors.Text.meetingPrimary)
                     Spacer()
                 }
                 HStack {
-                    Label(modelData.meetings.first!.time, systemImage: "clock")
+                    Label(modelData.meetings.first!.time, systemImage: Images.Icons.clock)
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(Colors.Text.meetingPrimary)
                     Spacer()

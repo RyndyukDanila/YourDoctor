@@ -20,6 +20,6 @@ struct TopicItem: View {
 
 struct TopicItem_Previews: PreviewProvider {
     static var previews: some View {
-        TopicItem(topic: Topic(imageName: "sun", label: "Covid 19"))
+        TopicItem(topic: Topic(imageName: Images.Icons.covid, label: "Covid 19"))
     }
 }

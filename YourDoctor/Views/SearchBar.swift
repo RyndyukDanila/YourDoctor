@@ -4,7 +4,7 @@ struct SearchBar: View {
     var body: some View {
         Button(action: {}) {
             HStack(alignment: .center, spacing: 12) {
-                Image("search")
+                Image(Images.Icons.search)
                 Text("SearchBar.search")
                     .font(Font.custom(Fonts.poppinsRegular, size: 15))
                     .foregroundColor(Colors.Text.secondary)

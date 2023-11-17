@@ -24,7 +24,7 @@ struct DoctorCard: View {
                 Spacer()
                 Button(action: {}) {
                     HStack {
-                        Image("location")
+                        Image(Images.Icons.location)
                         Text(doctor.distanceKm)
                             .font(Font.custom(Fonts.poppinsRegular, size: 14))
                             .foregroundColor(Colors.Text.secondary)
@@ -36,13 +36,13 @@ struct DoctorCard: View {
                 .frame(maxWidth: .infinity, minHeight: 0, maxHeight: 0.5)
             HStack {
                 HStack {
-                    Label(doctor.rating, systemImage: "clock")
+                    Label(doctor.rating, systemImage: Images.Icons.clock)
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(Colors.Text.rating)
                     Spacer()
                 }
                 HStack {
-                    Label("Open at \(doctor.openAt)", systemImage: "clock")
+                    Label("Open at \(doctor.openAt)", systemImage: Images.Icons.clock)
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
                         .foregroundColor(Colors.Text.time)
                     Spacer()

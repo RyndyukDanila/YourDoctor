@@ -1,10 +1,10 @@
 import Foundation
 
 let topics: [Topic] = [
-    Topic(imageName: "sun", label: "Covid 19"),
-    Topic(imageName: "profile-add", label: "Doctor"),
-    Topic(imageName: "link", label: "Medicine"),
-    Topic(imageName: "hospital", label: "Hospital")
+    Topic(imageName: Images.Icons.covid, label: "Covid 19"),
+    Topic(imageName: Images.Icons.doctor, label: "Doctor"),
+    Topic(imageName: Images.Icons.medicine, label: "Medicine"),
+    Topic(imageName: Images.Icons.hospital, label: "Hospital")
 ]
 
 struct Topic: Hashable, Codable, Identifiable  {
