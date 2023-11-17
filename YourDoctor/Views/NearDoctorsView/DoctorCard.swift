@@ -16,10 +16,10 @@ struct DoctorCard: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Dr. \(doctor.name)")
                         .font(Font.custom(Fonts.poppinsBold, size: 16))
-                        .foregroundColor(ColorTheme.Text.primary)
+                        .foregroundColor(Colors.Text.primary)
                     Text(doctor.profession)
                         .font(Font.custom(Fonts.poppinsRegular, size: 14))
-                        .foregroundColor(ColorTheme.Text.secondary)
+                        .foregroundColor(Colors.Text.secondary)
                 }
                 Spacer()
                 Button(action: {}) {
@@ -27,24 +27,24 @@ struct DoctorCard: View {
                         Image("location")
                         Text(doctor.distanceKm)
                             .font(Font.custom(Fonts.poppinsRegular, size: 14))
-                            .foregroundColor(ColorTheme.Text.secondary)
+                            .foregroundColor(Colors.Text.secondary)
                     }
                 }
             }
             Rectangle()
-                .stroke(ColorTheme.Buttons.divider, lineWidth: 1)
+                .stroke(Colors.Buttons.divider, lineWidth: 1)
                 .frame(maxWidth: .infinity, minHeight: 0, maxHeight: 0.5)
             HStack {
                 HStack {
                     Label(doctor.rating, systemImage: "clock")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
-                        .foregroundColor(ColorTheme.Text.rating)
+                        .foregroundColor(Colors.Text.rating)
                     Spacer()
                 }
                 HStack {
                     Label("Open at \(doctor.openAt)", systemImage: "clock")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
-                        .foregroundColor(ColorTheme.Text.time)
+                        .foregroundColor(Colors.Text.time)
                     Spacer()
                 }
             }
@@ -52,9 +52,9 @@ struct DoctorCard: View {
         }
         .padding(.vertical, 20)
         .padding(.horizontal, 16)
-        .background(ColorTheme.Buttons.background)
+        .background(Colors.Buttons.background)
         .cornerRadius(12)
-        .shadow(color: ColorTheme.Buttons.shadow, radius: 10, x: 2, y: 12)
+        .shadow(color: Colors.Buttons.shadow, radius: 10, x: 2, y: 12)
     }
 }
 

@@ -15,11 +15,11 @@ struct TabButton: View {
                 if isSelected {
                     Text(tab.title)
                         .font(Font.custom(Fonts.poppinsBold, size: 14))
-                        .foregroundColor(ColorTheme.Text.tab)
+                        .foregroundColor(Colors.Text.tab)
                 }
             }
             .padding(12)
-            .background(isSelected ? ColorTheme.Buttons.tab : ColorTheme.Buttons.background)
+            .background(isSelected ? Colors.Buttons.tab : Colors.Buttons.background)
             .cornerRadius(12)
         }
     }

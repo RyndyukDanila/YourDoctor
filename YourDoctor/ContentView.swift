@@ -20,7 +20,7 @@ struct ContentView: View {
                 TabsLayout(selectedTab: $selectedTab)
                 Spacer()
             }
-            .background(ColorTheme.Buttons.background)
+            .background(Colors.Buttons.background)
         }
     }
 }

@@ -5,9 +5,9 @@ struct NearDoctors: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text(UIText.nearDoctor)
+            Text("NearDoctors.title")
                 .font(Font.custom(Fonts.poppinsSemiBold, size: 16))
-                .foregroundColor(ColorTheme.Text.primary)
+                .foregroundColor(Colors.Text.primary)
             ForEach(modelData.doctors) { doctor in
                 DoctorCard(doctor: doctor)
             }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE25D9B82B073A4A004EF9BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE25D9BA2B073A4A004EF9BE /* Localizable.strings */; };
 		CE5988732B00FBA200337290 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988722B00FBA200337290 /* Doctor.swift */; };
 		CE5988752B00FC4300337290 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988742B00FC4300337290 /* ModelData.swift */; };
 		CE5988792B01065D00337290 /* Doctors.json in Resources */ = {isa = PBXBuildFile; fileRef = CE5988782B01065D00337290 /* Doctors.json */; };
@@ -15,8 +16,7 @@
 		CE5988822B010E9D00337290 /* GreetingHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988812B010E9D00337290 /* GreetingHeader.swift */; };
 		CE5988842B010F3B00337290 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = CE5988832B010F3B00337290 /* User.json */; };
 		CE5988862B010FAE00337290 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988852B010FAE00337290 /* User.swift */; };
-		CE5988892B01104600337290 /* UIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5988882B01104600337290 /* UIText.swift */; };
-		CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */; };
+		CE5DAFEA2B0137C800C65BB3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5DAFE92B0137C800C65BB3 /* Colors.swift */; };
 		CE5DAFEE2B013C0800C65BB3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFEB2B013C0800C65BB3 /* Poppins-Bold.ttf */; };
 		CE5DAFEF2B013C0800C65BB3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */; };
 		CE5DAFF52B013D9200C65BB3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE5DAFF42B013D9200C65BB3 /* Poppins-Regular.ttf */; };
@@ -40,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE25D9B92B073A4A004EF9BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE5988722B00FBA200337290 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
 		CE5988742B00FC4300337290 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		CE5988782B01065D00337290 /* Doctors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Doctors.json; sourceTree = "<group>"; };
@@ -48,8 +49,7 @@
 		CE5988812B010E9D00337290 /* GreetingHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingHeader.swift; sourceTree = "<group>"; };
 		CE5988832B010F3B00337290 /* User.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
 		CE5988852B010FAE00337290 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		CE5988882B01104600337290 /* UIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIText.swift; sourceTree = "<group>"; };
-		CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		CE5DAFE92B0137C800C65BB3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CE5DAFEB2B013C0800C65BB3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		CE5DAFEC2B013C0800C65BB3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		CE5DAFF12B013CB800C65BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +70,7 @@
 		CED69F2F2B02159F003E0FF2 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		CED69F312B02185E003E0FF2 /* NearDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearDoctors.swift; sourceTree = "<group>"; };
 		CED69F332B0219F5003E0FF2 /* DoctorCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorCard.swift; sourceTree = "<group>"; };
+		CEEF74E02B07406900311909 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEF5CBF62B020A5700FC488C /* TopicRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicRow.swift; sourceTree = "<group>"; };
 		CEF5CBF82B020C4400FC488C /* TopicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,8 +133,7 @@
 		CE5988872B01102D00337290 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				CE5988882B01104600337290 /* UIText.swift */,
-				CE5DAFE92B0137C800C65BB3 /* ColorTheme.swift */,
+				CE5DAFE92B0137C800C65BB3 /* Colors.swift */,
 				CE5DAFF62B013E4900C65BB3 /* Fonts.swift */,
 			);
 			path = Theme;
@@ -179,6 +179,7 @@
 		CE7C44BC2B009B3100D7C5B8 /* YourDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				CE25D9BA2B073A4A004EF9BE /* Localizable.strings */,
 				CE5988872B01102D00337290 /* Theme */,
 				CE59887A2B01066B00337290 /* Resources */,
 				CE7C44BD2B009B3100D7C5B8 /* YourDoctorApp.swift */,
@@ -268,7 +269,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				ru,
 			);
 			mainGroup = CE7C44B12B009B3100D7C5B8;
 			productRefGroup = CE7C44BB2B009B3100D7C5B8 /* Products */;
@@ -289,6 +290,7 @@
 				CE5DAFEF2B013C0800C65BB3 /* Poppins-SemiBold.ttf in Resources */,
 				CE5DAFF52B013D9200C65BB3 /* Poppins-Regular.ttf in Resources */,
 				CE5DAFEE2B013C0800C65BB3 /* Poppins-Bold.ttf in Resources */,
+				CE25D9B82B073A4A004EF9BE /* Localizable.strings in Resources */,
 				CE5988842B010F3B00337290 /* User.json in Resources */,
 				CE59887D2B010C0600337290 /* Meetings.json in Resources */,
 				CE7C44C52B009B3400D7C5B8 /* Preview Assets.xcassets in Resources */,
@@ -306,7 +308,7 @@
 				CED27CB82B01E6BD003B1AA5 /* SearchBar.swift in Sources */,
 				CE7C44CC2B009BA800D7C5B8 /* MainScreen.swift in Sources */,
 				CEF5CBF72B020A5800FC488C /* TopicRow.swift in Sources */,
-				CE5DAFEA2B0137C800C65BB3 /* ColorTheme.swift in Sources */,
+				CE5DAFEA2B0137C800C65BB3 /* Colors.swift in Sources */,
 				CED5DE102B023530006AF024 /* TabsLayout.swift in Sources */,
 				CE5DAFF92B014B7800C65BB3 /* NearestMeeting.swift in Sources */,
 				CED69F302B02159F003E0FF2 /* Topic.swift in Sources */,
@@ -319,7 +321,6 @@
 				CED5DE0C2B02333C006AF024 /* Tab.swift in Sources */,
 				CEF5CBF92B020C4400FC488C /* TopicItem.swift in Sources */,
 				CED5DE0E2B0234FE006AF024 /* TabButton.swift in Sources */,
-				CE5988892B01104600337290 /* UIText.swift in Sources */,
 				CE5988862B010FAE00337290 /* User.swift in Sources */,
 				CE5988752B00FC4300337290 /* ModelData.swift in Sources */,
 				CE5DAFF72B013E4900C65BB3 /* Fonts.swift in Sources */,
@@ -330,11 +331,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		CE25D9BA2B073A4A004EF9BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE25D9B92B073A4A004EF9BE /* en */,
+				CEEF74E02B07406900311909 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		CE7C44C62B009B3400D7C5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -395,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

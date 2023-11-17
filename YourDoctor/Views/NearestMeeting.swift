@@ -16,10 +16,10 @@ struct NearestMeeting: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Dr. \(modelData.doctors[modelData.meetings.first!.doctorId].name)")
                         .font(Font.custom(Fonts.poppinsBold, size: 16))
-                        .foregroundColor(ColorTheme.Text.meetingPrimary)
+                        .foregroundColor(Colors.Text.meetingPrimary)
                     Text(modelData.doctors[modelData.meetings.first!.doctorId].profession)
                         .font(Font.custom(Fonts.poppinsRegular, size: 14))
-                        .foregroundColor(ColorTheme.Text.meetingSecondary)
+                        .foregroundColor(Colors.Text.meetingSecondary)
                 }
                 Spacer()
                 Button(action: {}) {
@@ -33,20 +33,20 @@ struct NearestMeeting: View {
                 HStack {
                     Label(modelData.meetings.first!.date, systemImage: "calendar")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
-                        .foregroundColor(ColorTheme.Text.meetingPrimary)
+                        .foregroundColor(Colors.Text.meetingPrimary)
                     Spacer()
                 }
                 HStack {
                     Label(modelData.meetings.first!.time, systemImage: "clock")
                         .font(Font.custom(Fonts.poppinsRegular, size: 12))
-                        .foregroundColor(ColorTheme.Text.meetingPrimary)
+                        .foregroundColor(Colors.Text.meetingPrimary)
                     Spacer()
                 }
             }
             
         }
         .padding(20)
-        .background(ColorTheme.Buttons.primary)
+        .background(Colors.Buttons.primary)
         .cornerRadius(12)
     }
 }

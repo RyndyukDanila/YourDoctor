@@ -6,7 +6,7 @@ struct TabsLayout: View {
     var body: some View {
         VStack(spacing: 0) {
             Rectangle()
-                .stroke(ColorTheme.Buttons.divider, lineWidth: 1)
+                .stroke(Colors.Buttons.divider, lineWidth: 1)
                 .frame(maxWidth: .infinity, minHeight: 0, maxHeight: 0.5)
                 .padding(.bottom, 16)
             HStack {

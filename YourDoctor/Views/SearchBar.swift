@@ -5,13 +5,13 @@ struct SearchBar: View {
         Button(action: {}) {
             HStack(alignment: .center, spacing: 12) {
                 Image("search")
-                Text(UIText.search)
+                Text("SearchBar.search")
                     .font(Font.custom(Fonts.poppinsRegular, size: 15))
-                    .foregroundColor(ColorTheme.Text.secondary)
+                    .foregroundColor(Colors.Text.secondary)
                 Spacer()
             }
             .padding(16)
-            .background(ColorTheme.Buttons.secondary)
+            .background(Colors.Buttons.secondary)
             .cornerRadius(12)
         }
     }

@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ColorTheme {
+struct Colors {
     struct Text {
         static let greeting = Color(red: 0.53, green: 0.59, blue: 0.73)
         static let primary = Color(red: 0.05, green: 0.11, blue: 0.2)

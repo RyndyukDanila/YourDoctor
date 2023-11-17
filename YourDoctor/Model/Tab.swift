@@ -36,7 +36,7 @@ enum Tab: Int, Identifiable, CaseIterable, Comparable {
     }
     
     var color: Color {
-        return ColorTheme.Buttons.tabIcon
+        return Colors.Buttons.tabIcon
         
 //        switch self {
 //        case .home:

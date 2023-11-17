@@ -6,12 +6,12 @@ struct GreetingHeader: View {
     var body: some View {
         HStack {
             VStack (alignment: .leading) {
-                Text(UIText.greeting)
+                Text("GreetingHeader.hello")
                     .font(Font.custom(Fonts.poppinsRegular, size: 16))
-                    .foregroundColor(ColorTheme.Text.greeting)
+                    .foregroundColor(Colors.Text.greeting)
                 Text(modelData.user.name)
                     .font(Font.custom(Fonts.poppinsBold, size: 20))
-                    .foregroundColor(ColorTheme.Text.primary)
+                    .foregroundColor(Colors.Text.primary)
             }
             Spacer()
             Button(action: {}) {
@@ -24,6 +24,7 @@ struct GreetingHeader: View {
 struct GreetingHeader_Previews: PreviewProvider {
     static var previews: some View {
         GreetingHeader()
+            .environment(\.locale, .init(identifier: "en"))
             .environmentObject(ModelData())
     }
 }
