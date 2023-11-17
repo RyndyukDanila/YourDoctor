@@ -55,6 +55,7 @@ struct DoctorCard: View {
         .background(Colors.Buttons.background)
         .cornerRadius(12)
         .shadow(color: Colors.Buttons.shadow, radius: 10, x: 2, y: 12)
+        .accessibilityLabel("Nearest doctors")
     }
 }
 

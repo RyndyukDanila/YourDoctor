@@ -43,11 +43,11 @@ struct NearestMeeting: View {
                     Spacer()
                 }
             }
-            
         }
         .padding(20)
         .background(Colors.Buttons.primary)
         .cornerRadius(12)
+        .accessibilityLabel("Nearest Meeting with doctor")
     }
 }
 

@@ -13,6 +13,7 @@ struct SearchBar: View {
             .padding(16)
             .background(Colors.Buttons.secondary)
             .cornerRadius(12)
+            .accessibilityLabel("Searchbar for doctors or health issue")
         }
     }
 }

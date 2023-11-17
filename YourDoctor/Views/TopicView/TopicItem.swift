@@ -15,6 +15,7 @@ struct TopicItem: View {
                     .foregroundColor(Colors.Text.secondary)
             }
         }
+        .accessibilityValue(Text("\(topic.label) topic"))
     }
 }
 
