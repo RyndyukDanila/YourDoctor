@@ -1,0 +1,7 @@
+"GreetingHeader.greeting" = "Hello,";
+"SearchBar.search" = "Search doctor or health issue";
+"TopicItem.covid" = "Covid 19";
+"TopicItem.doctor" = "Doctor";
+"TopicItem.medicine" = "Medicine";
+"TopicItem.hospital" = "Hospital";
+"NearDoctors.title" = "Near Doctor";
